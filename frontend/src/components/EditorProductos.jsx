@@ -1,4 +1,4 @@
-// Lista editable de productos para los formularios de registro
+//Lista editable de productos para los formularios de registro
 export const filaVacia = () => ({ id: crypto.randomUUID(), codigo: '', cantidad: '', precio: '' });
 
 // Revisa las filas antes de enviarlas al servidor
